@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color:purple;
+            display: flex;
+            justify-content:center;
+            margin-top: 160px;
+        }
+        .c1,.c2,.c3{
+            margin:20px;
+        }
+        .c1{
+            
+            background-color: rgb(14, 190, 218);
+            height:300px;
+            width:300px;
+            border-radius: 50%;
+            border: 10px solid white;
+        }
+        .c2{
+            background-color: rgb(223, 24, 24);
+            height:300px;
+            width:300px;
+            border-radius: 50%;
+            border: 10px solid white;
+            
+        }
+        .c3{
+            background-color: rgb(223, 223, 31);
+            height:300px;
+            width:300px;
+            border-radius: 50%;
+            border: 10px solid white;
+        }
+        .t1{
+          margin-top: 350px;
+          padding-left: 70px;
+          background-color: rgb(77, 16, 77);
+          border:2px solid black;
+          font-style:arial;
+          border-radius:10px;
+          font-size: 30px;
+          color:white;
+          
+        }
+        .t2{
+          margin-top: 20px;
+          padding-left: 70px;
+          font-size: 24px;
+          color:white;
+          font-style: arial;
+        }
+    </style>
+</head>
+
+<body>
+    
+<div class="c1">
+    <div class="t1">FRONT-END</div>
+    <div class="t2">
+        Development
+    </div>
+</div>
+
+<div class="c2">
+    <div class="t1">BACK-END</div>
+    <div class="t2">
+        Development
+    </div>
+</div>
+<div class="c3">
+    <div class="t1">FULL-STACK</div>
+    <div class="t2">
+        Development
+    </div>
+</div>
+
+</body>
+</html>
